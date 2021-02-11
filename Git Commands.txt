@@ -1,0 +1,4 @@
+git config --global user.name "Noor M Noorani"
+
+git config --global user.email noorani1514@gmail.com
+

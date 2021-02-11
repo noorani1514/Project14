@@ -1,0 +1,54 @@
+git config --global user.name "Noor M Noorani"
+
+git config --global user.email noorani1514@gmail.com
+
+
+Basic Git commands : https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+
+First time git setup:
+
+For the first time git configuration, you use the following commands:
+
+git config --global user.name "random”
+
+Using this, you will enter your GitHub username
+git config --global user.email “random@example.com”
+Using this, you will enter your GitHub username
+
+Making a commit and pushing your changes to GitHub:
+
+Commands to be executed are —
+
+git init
+
+git add filename
+
+git commit -m “commit message”
+
+git remote add origin <url of the remote repository>
+
+git push -u origin master
+
+Some important git commands that are used very frequently:
+
+git status: This command will display the state of the working directory and the staging area. In other words, it lets you see the changes that have been staged and the changes that haven’t been added to the staging area.
+
+git log: This command shows you the commit details. It lists out the commits made in the repository in reverse-chronological order, that is, the most recent commits show up first. It shows commits with the following details:
+
+The commit ID or SHA
+
+Author’s name (who made the commit)
+
+Date and time
+
+Commit message
+
+More on the ‘git remote add origin url’ command
+
+Using this command, you can add a new remote repository to your local repository. To do so, you should use the git remote add command on the terminal, in the directory your repository is stored at. The git remote add command takes two arguments:
+
+A remote name, for example, origin (it can be any name)
+
+A remote URL, for example, https://github.com/user/repo.git (the address of the repository on your GitHub account that you want to link your local repository to.)
